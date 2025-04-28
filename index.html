@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,135 +7,131 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Nav bar -->
+    <!-- Barra de navegación -->
     <header>
-        <nav class="navbar">
+        <nav class="barra-navegacion">
             <div class="logo">
                 <h1>CelularesYA</h1>
             </div>
-            <ul class="nav-links">
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#products">Productos</a></li>
-                <li><a href="#deals">Ofertas</a></li>
-                <li><a href="#about">Sobre Nosotros</a></li>
-                <li><a href="#contact">Contacto</a></li>
+            <ul class="enlaces-nav">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
-            <div class="auth-buttons">
-                <button class="login-btn">Ingresá</button>
-                <button class="signup-btn">Regístrate</button>
+            <div class="botones-autenticacion">
+                <button class="btn-iniciar-sesion">Ingresá</button>
+                <button class="btn-registrarse">Regístrate</button>
             </div>
         </nav>
     </header>
 
     <!-- Contenido Principal -->
     <main>
-        <!-- Categorias -->
-        <section class="categories">
+        <!-- Categorías -->
+        <section class="categorias">
             <h2>Explorá nuestras categorías</h2>
-            <div class="category-buttons">
-                <button class="category-btn">Smartphones</button>
-                <button class="category-btn">Accesorios</button>
-                <button class="category-btn">Fundas y Protectores</button>
-                <button class="category-btn">Auriculares</button>
-                <button class="category-btn">Cargadores</button>
-                <button class="category-btn">Repuestos y Mantenimiento</button>
+            <div class="botones-categoria">
+                <button class="btn-categoria">Smartphones</button>
+                <button class="btn-categoria">Accesorios</button>
+                <button class="btn-categoria">Fundas y Protectores</button>
+                <button class="btn-categoria">Auriculares</button>
+                <button class="btn-categoria">Cargadores</button>
+                <button class="btn-categoria">Repuestos y Mantenimiento</button>
             </div>
         </section>
 
         <!-- Productos destacados -->
-        <section class="featured-products">
+        <section class="productos-destacados">
             <h2>Productos destacados</h2>
-            <div class="product-grid">
+            <div class="rejilla-productos">
                 <!-- Producto 1 -->
-                <div class="product-card">
-                    <div class="product-badge">Nuevo</div>
-                    <img src="img/Galaxy_A05.png" alt="Smartphone" class="product-image">
-                    <div class="product-info">
-                        <h3 class="product-title">Galaxy A05</h3>
-                        <p class="product-description">Smartphone con excelente rendimiento y precio increible.</p>
-                        <div class="product-price-row">
-                            <span class="product-price">$300.000</span>
-                            
+                <div class="tarjeta-producto">
+                    <div class="etiqueta-producto">Nuevo</div>
+                    <img src="img/Galaxy_A05.png" alt="Smartphone" class="imagen-producto">
+                    <div class="info-producto">
+                        <h3 class="titulo-producto">Galaxy A05</h3>
+                        <p class="descripcion-producto">Smartphone con excelente rendimiento y precio increible.</p>
+                        <div class="fila-precio-producto">
+                            <span class="precio-producto">$300.000</span>
                         </div>
-                        <div class="product-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-count">(128)</span>
+                        <div class="valoracion-producto">
+                            <span class="estrellas">★★★★★</span>
+                            <span class="cantidad-valoraciones">(128)</span>
                         </div>
-                        <button class="add-to-cart-btn">Añadir al carrito</button>
+                        <button class="btn-agregar-carrito">Añadir al carrito</button>
                     </div>
                 </div>
 
                 <!-- Producto 2 -->
-                <div class="product-card">
-                    <div class="product-badge sale">En Oferta</div>
-                    <img src="img/Moto-E22.png" alt="Laptop" class="product-image">
-                    <div class="product-info">
-                        <h3 class="product-title">Moto E22</h3>
-                        <p class="product-description">Smarthphone con pantalla amplia, batería duradera y rendimiento eficiente.</p>
-                        <div class="product-price-row">
-                            <span class="product-price">$400.000</span>
-                            
+                <div class="tarjeta-producto">
+                    <div class="etiqueta-producto oferta">En Oferta</div>
+                    <img src="img/Moto-E22.png" alt="Smartphone" class="imagen-producto">
+                    <div class="info-producto">
+                        <h3 class="titulo-producto">Moto E22</h3>
+                        <p class="descripcion-producto">Smartphone con pantalla amplia, batería duradera y rendimiento eficiente.</p>
+                        <div class="fila-precio-producto">
+                            <span class="precio-producto">$400.000</span>
                         </div>
-                        <div class="product-rating">
-                            <span class="stars">★★★★<span class="empty-star">★</span></span>
-                            <span class="rating-count">(96)</span>
+                        <div class="valoracion-producto">
+                            <span class="estrellas">★★★★<span class="estrella-vacia">★</span></span>
+                            <span class="cantidad-valoraciones">(96)</span>
                         </div>
-                        <button class="add-to-cart-btn">Añadir al carrito</button>
+                        <button class="btn-agregar-carrito">Añadir al carrito</button>
                     </div>
                 </div>
 
                 <!-- Producto 3 -->
-                <div class="product-card">
-                    <img src="img/Iphone_16.png" alt="Headphones" class="product-image">
-                    <div class="product-info">
-                        <h3 class="product-title">Iphone 16</h3>
-                        <p class="product-description">iPhone 16 Pro: cámara profesional, potencia sin igual y pantalla espectacular.</p>
-                        <div class="product-price-row">
-                            <span class="product-price">$2.200.000</span>
+                <div class="tarjeta-producto">
+                    <img src="img/Iphone_16.png" alt="Smartphone" class="imagen-producto">
+                    <div class="info-producto">
+                        <h3 class="titulo-producto">iPhone 16</h3>
+                        <p class="descripcion-producto">iPhone 16 Pro: cámara profesional, potencia sin igual y pantalla espectacular.</p>
+                        <div class="fila-precio-producto">
+                            <span class="precio-producto">$2.200.000</span>
                         </div>
-                        <div class="product-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-count">(215)</span>
+                        <div class="valoracion-producto">
+                            <span class="estrellas">★★★★★</span>
+                            <span class="cantidad-valoraciones">(215)</span>
                         </div>
-                        <button class="add-to-cart-btn">Añadir al carrito</button>
+                        <button class="btn-agregar-carrito">Añadir al carrito</button>
                     </div>
                 </div>
 
                 <!-- Producto 4 -->
-                <div class="product-card">
-                    <div class="product-badge limited">Limitado</div>
-                    <img src="img/Xiaomi_MI_11.png" alt="Smart Watch" class="product-image">
-                    <div class="product-info">
-                        <h3 class="product-title">Xiaomi MI11</h3>
-                        <p class="product-description">Xiaomi Mi 11: pantalla AMOLED, potente rendimiento y una cámara genial.</p>
-                        <div class="product-price-row">
-                            <span class="product-price">$800.000</span>
-                            
+                <div class="tarjeta-producto">
+                    <div class="etiqueta-producto limitado">Limitado</div>
+                    <img src="img/Xiaomi_MI_11.png" alt="Smartphone" class="imagen-producto">
+                    <div class="info-producto">
+                        <h3 class="titulo-producto">Xiaomi MI11</h3>
+                        <p class="descripcion-producto">Xiaomi Mi 11: pantalla AMOLED, potente rendimiento y una cámara genial.</p>
+                        <div class="fila-precio-producto">
+                            <span class="precio-producto">$800.000</span>
                         </div>
-                        <div class="product-rating">
-                            <span class="stars">★★★★<span class="empty-star">★</span></span>
-                            <span class="rating-count">(74)</span>
+                        <div class="valoracion-producto">
+                            <span class="estrellas">★★★★<span class="estrella-vacia">★</span></span>
+                            <span class="cantidad-valoraciones">(74)</span>
                         </div>
-                        <button class="add-to-cart-btn">Añadir al carrito</button>
+                        <button class="btn-agregar-carrito">Añadir al carrito</button>
                     </div>
                 </div>
 
                 <!-- Producto 5 -->
-                <div class="product-card">
-                    <div class="product-badge limited">Limitado</div>
-                    <img src="img/Galaxy_A04.png" alt="Smart Watch" class="product-image">
-                    <div class="product-info">
-                        <h3 class="product-title">Galaxy A04</h3>
-                        <p class="product-description">Galaxy A04: gran pantalla, buena cámara y autonomía, todo a un precio accesible.</p>
-                        <div class="product-price-row">
-                            <span class="product-price">$200.000</span>
-                            
+                <div class="tarjeta-producto">
+                    <div class="etiqueta-producto limitado">Limitado</div>
+                    <img src="img/Galaxy_A04.png" alt="Smartphone" class="imagen-producto">
+                    <div class="info-producto">
+                        <h3 class="titulo-producto">Galaxy A04</h3>
+                        <p class="descripcion-producto">Galaxy A04: gran pantalla, buena cámara y autonomía, todo a un precio accesible.</p>
+                        <div class="fila-precio-producto">
+                            <span class="precio-producto">$200.000</span>
                         </div>
-                        <div class="product-rating">
-                            <span class="stars">★★★★<span class="empty-star">★</span></span>
-                            <span class="rating-count">(82)</span>
+                        <div class="valoracion-producto">
+                            <span class="estrellas">★★★★<span class="estrella-vacia">★</span></span>
+                            <span class="cantidad-valoraciones">(82)</span>
                         </div>
-                        <button class="add-to-cart-btn">Añadir al carrito</button>
+                        <button class="btn-agregar-carrito">Añadir al carrito</button>
                     </div>
                 </div>
             </div>
